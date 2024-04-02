@@ -64,7 +64,7 @@ nav {
 }
 
 .squiggles {
-    width: 695px;
+    width: 690px;
     height: 470px;
 }
 
@@ -151,4 +151,25 @@ nav {
     justify-content: left;
     width: 550px;
     margin-left: -5rem;
+}
+
+#other-work-body{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-widget{
+    margin-top: 1rem;
+    margin-left:4rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    border-radius: 1rem;
+    border-width: 6px;
+    border-style: solid;
+    background-color:white
 }
