@@ -93,7 +93,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 2rem;
+    padding: 1em;
 }
 
 #widget{
@@ -166,11 +166,12 @@ h2 {
         display: none;
     }
 
-    .project-row{
+    .project-row {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding: 0em;
     }
 
     #widget{
