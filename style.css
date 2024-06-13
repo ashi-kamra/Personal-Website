@@ -11,7 +11,7 @@ h1 {
 
 h2 {
     font-family: 'Kumar One', serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 #nav-bar {
@@ -96,19 +96,20 @@ h2 {
     padding: 2rem;
 }
 
-#parliament-widget{
+#widget{
     background-color: white;
     border-radius: 1em;
-    border-color: black;
+    border-style: solid;
+    border-width: 0.5em;
     padding: 2rem;
-    height: 400px;
-}
-
-#hackathon-widget {
-    background-color: white;
-    border-radius: 1em;
-    border-color: black;
-    padding: 2rem;
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /** MEDIA QUERIES **/
@@ -163,5 +164,29 @@ h2 {
 
     #title-squiggles {
         display: none;
+    }
+
+    .project-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #widget{
+        background-color: white;
+        border-radius: 1em;
+        border-style: solid;
+        border-width: 0.5em;
+        padding: 2rem;
+        margin-left: 2.25rem;
+        margin-right: 2.25rem;
+        margin-bottom: 2rem;
+        height: 250px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
