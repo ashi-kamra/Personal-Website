@@ -112,6 +112,10 @@ h2 {
     text-align: center;
 }
 
+.tag{
+    position: absolute;
+}
+
 /** MEDIA QUERIES **/
 @media screen and (max-width: 575.98px) {  
     .logo {
