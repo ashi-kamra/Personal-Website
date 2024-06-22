@@ -116,6 +116,22 @@ h2 {
     position: absolute;
 }
 
+#pm-tag{
+    transform: translate(-100px, -80px); 
+}
+
+#web-dev-tag{
+    transform: translate(-113px, -80px);
+}
+
+#ai-tag{
+    transform: translate(-100px, -80px);
+}
+
+#personalproject-tag{
+    transform: translate(-120px, -80px)
+}
+
 /** MEDIA QUERIES **/
 @media screen and (max-width: 575.98px) {  
     .logo {
