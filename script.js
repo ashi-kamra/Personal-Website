@@ -12,7 +12,7 @@
             $('#web-dev-tag').attr("src", "assets/img/white-webdev-tag.svg");
         }
         if (parent.children().eq(0).is($('#ai-tag'))){
-            $('#ai-tag').attr("src", "assets/img/white-ai-tag.png");
+            $('#ai-tag').attr("src", "assets/img/white-ai-tag.svg");
         }
         if (parent.children().eq(0).is($('#personalproject-tag'))){
             $('#personalproject-tag').attr("src", "assets/img/white-personalproject-tag.svg");
@@ -26,7 +26,7 @@
             $('#web-dev-tag').attr("src", "assets/img/black-webdev-tag.svg");
         }
         if (parent.children().eq(0).is($('#ai-tag'))){
-            $('#ai-tag').attr("src", "assets/img/black-ai-tag.png");
+            $('#ai-tag').attr("src", "assets/img/black-ai-tag.svg");
         }
         if (parent.children().eq(0).is($('#personalproject-tag'))){
             $('#personalproject-tag').attr("src", "assets/img/black-personalproject-tag.svg");
