@@ -20,9 +20,18 @@ h2 {
     width: 100vw
 }
 
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(359deg);
+    }
+}
+
 .logo {
     width: 100px;
-    height: 100px
+    height: 100px;
+    animation: spin 5s infinite linear;
 }
 
 .nav-button {

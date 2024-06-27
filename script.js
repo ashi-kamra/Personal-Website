@@ -3,16 +3,34 @@
         //widget functionality
             // when hovered over, the widget changes color
             //when pressed, takes you to a different page
-        
-    function changeTags(parent){
-         //use .children() to match up the widget that is firing with the tag
 
-        $('.tag').each(function() {
+    function changeTagsWhite(parent) {
+        if (parent.children().eq(0).is($('#pm-tag'))){
             $('#pm-tag').attr("src", "assets/img/white-pm-tag.svg");
+        }
+        if (parent.children().eq(0).is($('#web-dev-tag'))){
             $('#web-dev-tag').attr("src", "assets/img/white-webdev-tag.svg");
+        }
+        if (parent.children().eq(0).is($('#ai-tag'))){
             $('#ai-tag').attr("src", "assets/img/white-ai-tag.png");
+        }
+        if (parent.children().eq(0).is($('#personalproject-tag'))){
             $('#personalproject-tag').attr("src", "assets/img/white-personalproject-tag.svg");
-        })
+        }
+    }
+    function changeTagsBlack(parent) {
+        if (parent.children().eq(0).is($('#pm-tag'))){
+            $('#pm-tag').attr("src", "assets/img/black-pm-tag.svg");
+        }
+        if (parent.children().eq(0).is($('#web-dev-tag'))){
+            $('#web-dev-tag').attr("src", "assets/img/black-webdev-tag.svg");
+        }
+        if (parent.children().eq(0).is($('#ai-tag'))){
+            $('#ai-tag').attr("src", "assets/img/black-ai-tag.png");
+        }
+        if (parent.children().eq(0).is($('#personalproject-tag'))){
+            $('#personalproject-tag').attr("src", "assets/img/black-personalproject-tag.svg");
+        }
     }
 
     $('.widget').each(function() {
@@ -20,15 +38,34 @@
             console.log("hovering!");
             $(this).css("background-color", "black");
             $(this).css("color", "white");
-            changeTags($(this))
+            changeTagsWhite($(this))
+
         }),
 
         $(this).on("mouseleave", function() {
             $(this).css("background-color", "white")
             $(this).css("color", "black") 
+            changeTagsBlack($(this));
+
         })
     
     })
+
+    // $('.tag').each(function() {
+    //     $(this).on("mouseover", function() {
+    //         $('#pm-tag').attr("src", "assets/img/white-pm-tag.svg");
+    //         $('#web-dev-tag').attr("src", "assets/img/white-webdev-tag.svg");
+    //         $('#ai-tag').attr("src", "assets/img/white-ai-tag.png");
+    //         $('#personalproject-tag').attr("src", "assets/img/white-personalproject-tag.svg");
+    //     }),
+
+    //     $(this).on("mouseleave", function() {
+    //         $('#pm-tag').attr("src", "assets/img/black-pm-tag.svg");
+    //         $('#web-dev-tag').attr("src", "assets/img/black-webdev-tag.svg");
+    //         $('#ai-tag').attr("src", "assets/img/black-ai-tag.png");
+    //         $('#personalproject-tag').attr("src", "assets/img/black-personalproject-tag.svg");
+    //     })
+    // })
 
     // var widgs = document.getElementsByClassName("widget") //returns an array
     // console.log(widgs)
