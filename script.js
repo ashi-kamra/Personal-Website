@@ -51,38 +51,19 @@
     
     })
 
-    // $('.tag').each(function() {
-    //     $(this).on("mouseover", function() {
-    //         $('#pm-tag').attr("src", "assets/img/white-pm-tag.svg");
-    //         $('#web-dev-tag').attr("src", "assets/img/white-webdev-tag.svg");
-    //         $('#ai-tag').attr("src", "assets/img/white-ai-tag.png");
-    //         $('#personalproject-tag').attr("src", "assets/img/white-personalproject-tag.svg");
-    //     }),
+    //media query for footer
+    if($(window).width() < 800) {
+        $('#footer-info').css("display", "flex");
+        $('#footer-info').css("margin","1rem");
+        $('#footer-info').css("align-items", "center");
+        $('#footer-info').css("justify-content", "center");
+        $('#footer-text').css("font-size", "1em")
 
-    //     $(this).on("mouseleave", function() {
-    //         $('#pm-tag').attr("src", "assets/img/black-pm-tag.svg");
-    //         $('#web-dev-tag').attr("src", "assets/img/black-webdev-tag.svg");
-    //         $('#ai-tag').attr("src", "assets/img/black-ai-tag.png");
-    //         $('#personalproject-tag').attr("src", "assets/img/black-personalproject-tag.svg");
-    //     })
-    // })
+        //make the size of the text smaller
+        //center the text
+        //
+        // change functionality for smaller screens
+    }
 
-    // var widgs = document.getElementsByClassName("widget") //returns an array
-    // console.log(widgs)
-     
-    // document.addEventListener("mouseenter", function(event) {
-    //     console.log("working!")
-    //     for (var i = 0; i < widgs.length; i++){
-    //         widgs[i].style.backgroundColor = "black"
-    //     }
-    // })
-
-    // document.addEventListener("mouseleave", function(event) {
-    //     console.log("working!")
-    //     for (var i = 0; i < widgs.length; i++){
-    //         widgs[i].style.backgroundColor = "white"
-    //     }
-    // })
-        
-
+    
     

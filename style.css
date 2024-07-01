@@ -14,11 +14,6 @@ h2 {
     font-size: 1.5em;
 }
 
-h3 {
-    font-family: 'Kumar One', serif;
-    font-size: 1.2em;
-}
-
 #nav-bar {
     padding: 2rem;
     height: 10vh;
@@ -148,12 +143,14 @@ h3 {
 
 footer {
     background-color: white;
-    margin-top: 3rem;
+    height: 150px;
+    margin-top: 5rem;
     border-top: .75em solid black;
 }
 
-#footer-text {
+#footer-info {
     margin-top: 2em;
+    margin-right: 1.5em;
     float: right;
 }
 
@@ -161,14 +158,21 @@ footer {
     float: left;
     width: 80px;
     height: 80px;
-    margin: 1em;
+    margin: 1.5em;
+}
+
+#footer-text{
+    font-family: 'Kumar One', serif;
+    font-size: 1.2em;
 }
 
 .bi {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color: #91B7EF;
-    margin-left: 1.5rem;
     margin-bottom: 1rem;
+    padding: auto;
+    float: right;
+    padding-left: 2rem;
 }
 
 /** MEDIA QUERIES **/
@@ -264,5 +268,9 @@ footer {
 
     #personalproject-tag{
         transform: translate(-50px, -80px)
+    }
+
+    #footer-logo {
+        display: none;
     }
 }
