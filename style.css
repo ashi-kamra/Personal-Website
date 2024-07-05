@@ -14,6 +14,12 @@ h2 {
     font-size: 1.5em;
 }
 
+p {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
 #nav-bar {
     padding: 2rem;
     height: 10vh;
@@ -173,6 +179,51 @@ footer {
     padding: auto;
     float: right;
     padding-left: 2rem;
+}
+
+/** ABOUT ME **/
+
+#about-me {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding: 2em;
+}
+
+#about-me-img{
+    transform: translateX(50px);
+    margin-top: 3rem;
+    border: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    width: 30%;
+}
+
+#about-me-text{
+    margin: 1rem;
+    float: center;
+    flex-direction: column;
+    width: 40%;
+
+}
+#about-title{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Kumar One', serif;
+    font-size: 2em;
+}
+
+#about-me-squiggle1{
+    width: 45px;
+    transform: translate(140px, 25px);
+    position: absolute;
+}
+
+#about-me-squiggle1{
+    width: 45px;
+    transform: translate(145px, 10px);
+    position: absolute;
 }
 
 /** MEDIA QUERIES **/
