@@ -192,11 +192,13 @@ footer {
 
 #about-me-img{
     transform: translateX(50px);
+    max-width: 100%;
     margin-top: 3rem;
     border: solid;
     border-width: 4px;
     border-radius: 12px;
     width: 30%;
+    
 }
 
 #about-me-text{
@@ -215,15 +217,22 @@ footer {
 }
 
 #about-me-squiggle1{
-    width: 45px;
-    transform: translate(140px, 25px);
+    width: 42px;
+    transform: translate(145px, 25px);
     position: absolute;
 }
 
-#about-me-squiggle1{
-    width: 45px;
-    transform: translate(145px, 10px);
+#about-me-squiggle3{
+    width: 50px;
+    transform: translate(150px, 80px);
     position: absolute;
+}
+
+#about-me-squiggle4{
+    width: 42px;
+    transform: translate(380px, 80px) rotate(180deg);
+    position: absolute;
+
 }
 
 /** MEDIA QUERIES **/
