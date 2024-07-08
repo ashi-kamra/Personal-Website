@@ -192,48 +192,25 @@ footer {
 
 #about-me-img{
     transform: translateX(50px);
-    max-width: 100%;
+    width: 35%;
     margin-top: 3rem;
     border: solid;
     border-width: 4px;
     border-radius: 12px;
-    width: 30%;
-    
 }
 
 #about-me-text{
-    margin: 1rem;
-    float: center;
+    display: flex;
     flex-direction: column;
     width: 40%;
-
 }
-#about-title{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    text-align: center;
-    font-family: 'Kumar One', serif;
-    font-size: 2em;
+#about-me-text-img {
+    float: center; 
+    width: 60%;
 }
 
-#about-me-squiggle1{
-    width: 42px;
-    transform: translate(145px, 25px);
-    position: absolute;
-}
 
-#about-me-squiggle3{
-    width: 50px;
-    transform: translate(150px, 80px);
-    position: absolute;
-}
 
-#about-me-squiggle4{
-    width: 42px;
-    transform: translate(380px, 80px) rotate(180deg);
-    position: absolute;
-
-}
 
 /** MEDIA QUERIES **/
 @media screen and (max-width: 575.98px) {  
@@ -333,4 +310,18 @@ footer {
     #footer-logo {
         display: none;
     }
+
+    #about-me {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    
+
 }
