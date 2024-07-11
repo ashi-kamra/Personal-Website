@@ -320,7 +320,18 @@ footer {
     
 }
 
-@media screen and (max-width: 1190px) {
-    
+@media screen and (max-width: 1024px) {
+    #about-me {
+        flex-direction: column;
+        align-items: center; /*when flex direction changes, the axis changes*/        
+    }
+
+    #about-me-text {
+        width: 60%;
+    }
+
+    #about-text-img{
+        padding-top: 2rem;
+    }
 
 }
