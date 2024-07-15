@@ -59,11 +59,19 @@
         $('#footer-info').css("justify-content", "center");
         $('#footer-text').css("font-size", "1em")
 
-        //make the size of the text smaller
-        //center the text
-        //
-        // change functionality for smaller screens
     }
 
-    
+    //on clicking each widget, want to take to a different linked page
+    $('#fintech').on("click", function() {
+        window.location.replace("work/fintech.html")
+    })
+    $('#hackathon').on("click", function() {
+        window.location.replace("work/hackathon.html")
+    })
+    $('#ai').on("click", function() {
+        window.location.replace("work/ai.html")
+    })
+    $('#portfolio').on("click", function() {
+        window.location.replace("work/website.html")
+    })
     
