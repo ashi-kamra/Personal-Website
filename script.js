@@ -63,15 +63,15 @@
 
     //on clicking each widget, want to take to a different linked page
     $('#fintech').on("click", function() {
-        window.location.replace("work/fintech.html")
+        window.location.replace("fintech.html")
     })
     $('#hackathon').on("click", function() {
-        window.location.replace("work/hackathon.html")
+        window.location.replace("hackathon.html")
     })
     $('#ai').on("click", function() {
-        window.location.replace("work/ai.html")
+        window.location.replace("ai.html")
     })
     $('#portfolio').on("click", function() {
-        window.location.replace("work/website.html")
+        window.location.replace("website.html")
     })
     

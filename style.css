@@ -14,10 +14,14 @@ h2 {
     font-size: 1.5em;
 }
 
-p {
+p, li {
     font-family: 'Inconsolata', sans-serif;
     font-weight: 500;
     font-size: 1.25em;
+}
+
+ul {
+    margin-top: -1em;
 }
 
 #nav-bar {
@@ -266,9 +270,26 @@ footer {
 
 #project-container{
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1em;
 }
+
+#project-overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.overview-section{
+    text-align: left;
+}
+
+
 
 
 
@@ -368,6 +389,10 @@ footer {
     }
 
     #footer-logo {
+        display: none;
+    }
+
+    #project-tags1{
         display: none;
     }
 
