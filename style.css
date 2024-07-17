@@ -270,19 +270,10 @@ footer {
 
 #project-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 1em;
-}
-
-#project-overview{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
     width: 50%;
-    
+    margin-top: 1em;
 }
 
 .overview-section{
@@ -390,6 +381,12 @@ footer {
 
     #footer-logo {
         display: none;
+    }
+
+    #project-container{
+        flex-direction: column;
+        justify-content: center;
+
     }
 
     #project-tags1{
