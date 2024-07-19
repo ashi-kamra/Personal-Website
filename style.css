@@ -221,54 +221,29 @@ footer {
 
 /*** PROJECTS ***/
 
-.ptag{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    border: black 3px solid;
-    border-radius: 10px;
-    padding-left: 1em;
-    padding-right: 1em;
-    background: black;
-    color: white;
-}
-
-/*AI*/
-
-#project-description1{
+.project-description{
     margin-top: 4rem;
 }
 
-#project-header1{
+.project-header{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#project-title1{
+.project-title{
     margin-top: 2rem;
     font-size: 25px;
+    text-align: center;
 }
 
-.ptag{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    border: black 3px solid;
-    border-radius: 10px;
-    padding-left: 1em;
-    padding-right: 1em;
-    background: black;
-    color: white;
-}
-
-#project-tags1{
+.project-tags{
     display: flex;
     flex-direction: row;
 }
 
-#project-container{
+.project-container{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -276,9 +251,39 @@ footer {
     margin-top: 1em;
 }
 
-.overview-section{
-    text-align: left;
+.ptag{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border: black 3px solid;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: black;
+    color: white;
 }
+
+.project-description-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    width: 100%
+}
+
+.project-description-text {
+    margin-left: 3em;
+    width: 70%;
+}
+
+.overview-section{
+    text-align: left;   
+   }
+
+/*AI*/
+
+
+
+
 
 
 
@@ -385,8 +390,12 @@ footer {
 
     #project-container{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+    }
 
+    .overview-section{
+        text-align: center; 
+        padding-top: 1em; 
     }
 
     #project-tags1{
