@@ -297,6 +297,25 @@ footer {
     border-radius: 10px;
 }
 
+/**OTHER WORK **/
+#other-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%
+}
+
+#other-work-title{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 25px;
+}
+
+#art-carousel{
+    align-self: center;
+}
+
 
 /** MEDIA QUERIES **/
 @media screen and (max-width: 575.98px) {  

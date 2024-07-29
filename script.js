@@ -75,3 +75,11 @@
         window.location.replace("website.html")
     })
     
+
+    //carousel
+    const carousel1 = document.querySelector('#art-carousel')
+
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 2000,
+        touch: false
+    })
