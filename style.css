@@ -226,6 +226,13 @@ footer {
 
 /*** PROJECTS ***/
 
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-description{
     margin-top: 4rem;
 }
@@ -312,13 +319,29 @@ footer {
     font-size: 25px;
 }
 
-#art-design {
+#writing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-#art-carousel{
-    align-self: center;
+#writing-widgets-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
 }
+
+.writing-widget{
+    border: black 7px solid;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
 
 
 /** MEDIA QUERIES **/
