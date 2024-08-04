@@ -312,6 +312,10 @@ footer {
     font-size: 25px;
 }
 
+#art-design {
+    align-items: center;
+}
+
 #art-carousel{
     align-self: center;
 }
