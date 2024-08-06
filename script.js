@@ -76,4 +76,15 @@
     })
     
 
+    //////////////
+
+    $('.writing-widget-and-text-box').each(function() {
+        $(this).on("mouseover", function() {
+            $(this).css("transform", "rotate(3deg)");
+        }),
+
+        $(this).on("mouseleave", function() {
+            $(this).css("transform", "rotate(0deg)")
+        })
     
+    })
