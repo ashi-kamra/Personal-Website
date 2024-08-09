@@ -102,6 +102,12 @@
                         <br>
                         <p>I consulted articles from the New York Times, Chronicle of Higher Education, the Washington Post, from early A.I adopter educators like Professor Ethan Mollick from UPenn, and research from Stanford University. I even stumbled upon a class at Boston University who self-established a policy for A.I usage in their classroom. </p>
                         <br>
+
+                        <div class="multi-image-projects">
+                            <img src="assets/extra-work/ethan-mollick.png" style="width: 50%; border: solid 5px; border-radius: 10px;">
+                            <img src="assets/extra-work/washington-post.png" style="width: 50%; margin: 1em; border: solid 5px; border-radius: 10px;">
+                        </div>
+                        <br>
                         <p> Determining the extent of the plagarism accusations, and the level of genAI usage in classrooms across the country helped me gauge the severity of a problem A.I content detectors could cause if the technology was deeply unreliable. This literature review helped reinforce the relevance of my research.</p>
                         <br>
                         <h3>More Literature Review:</h3>
@@ -110,11 +116,36 @@
 Based on my previous literature review, I chose three detectors (GPTZero, Winston A.I, and Originality A.I) for their frequency of usage in higher education or their involvement in the plagiarism accusations. I was also planning on using chatGPT’s text classifier, but by the time I was conducting primary research, chatGPT removed it from their platform due to “low rates of accuracy.”
                         </p>
                         <br>
+                        <div class="multi-image-projects">
+                            <img src="assets/extra-work/gpt-zero.png" style="width: 30%; border: solid 5px; border-radius: 10px;">
+                            <img src="assets/extra-work/originality.png" style="margin: 1em;width: 30%; border: solid 5px; border-radius: 10px;">
+                            <img src="assets/extra-work/winston-ai.png" style="width: 30%; border: solid 5px; border-radius: 10px;">
+                        </div>
+                        
+                        <br>
                         <p>Generic information about A.I detectors I gained from research papers or new articles, but information about each detector came from each company's web page directly. I collected information like pricing plans, type of algorithm it uses, self-reported accuracy ranges, and any self-reported limitations for each detector. </p>
                         <br>
                         <h3>The Webpage </h3>
                         <p>It was also at this time that I started to build the webpage that would host my visual essay. I wanted a color and font scheme that would be visually engaging and on theme for generative A.I/innovative technologies, and began designing in Figma.
                         </p>
+                        <p>When developing my design, I referenced articles like the <a href="https://pudding.cool/process/how-to-make-dope-shit-part-2/"> Pudding's “How to Make Dope Shit”</a> and the<a href="https://kawan.kontinentalist.com/tag/data-diaries/"> Kontentalist's “Data Diaries”</a>, to better understand and refine my storytelling skills, and to experiment with common data journalism coding practice. </p>
+                        <p>It was the first time I had ever attempted “scrollyteling” (dynamically telling a story as the user scrolls through the webpage), so it was a steep learning curve. It took <strong>many</strong> iterations to get each div element to stick to the top of the DOM for the duration I wanted. At some point, I never wanted to see another sticky div again. In the spirit of data journalist Ilia Blinderman– I was intimated, I felt like it sucked, but I powered through.</p>
+                        <br>
+                        <h3>Primary Research</h3>
+                        <p>With my background research collected, and my webpage starting to take form, I began the most exciting part, the primary research. To tell how well the detectors perform, I would need to collect 3 types of text samples</p>
+                        <ol class="hackathon-list">
+                            <li style="font-weight: bold">100% AI generated</li>
+                            <li style="font-weight: bold">50% AI generated and 50% human written</li>
+                            <li style="font-weight: bold">100% human written</li>
+                        </ol>
+                        <p>To generate the AI text samples, I chose 3 popular LLM’s: chatGPT, Bard, and Claude.ai, to see how well the detectors fared against different AI.</p>
+                        <p>There were many factors to consider when generating human writing. The detectors were known to perform better on longer pieces of English text, and students would normally encounter these detectors when writing analytical essays.</p>
+                        <p>As such, I had 7 participants (all native English speakers, aged 18-25 and attending or recently graduated from higher education institutes) write 200 words to a prompt about a NYT article about P.E classes in China. To generate the 50% AI, 50% Human samples, I'd take the first 100 words of a human response and have each LLM generate the last 100.</p>
+                        <p>The below image is the datasheet I used to track and record each set of responses, and how they held up again the detectors</p>
+                        <br>
+                        <img src="assets/extra-work/datasheet.png" style="width: 60%; align-self: center; border: solid 5px; border-radius: 10px";>
+                        <br>
+                        <p> With the data collected, now came time to visualize the data</p>
                     </div>
                 </div>
             </div>
