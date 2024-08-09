@@ -88,3 +88,7 @@
         })
     
     })
+
+    $('#result').on("click", function() {
+        window.location.replace("https://ashi-kamra.github.io/AIContentDetectorAnalysis/")
+    })
