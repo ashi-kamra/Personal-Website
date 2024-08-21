@@ -310,6 +310,14 @@ footer {
     align-items: center;
 }
 
+/** In Dev **/
+.in-development{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
 
 
 /**OTHER WORK **/

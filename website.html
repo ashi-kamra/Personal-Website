@@ -1,45 +1,112 @@
-<section class="project-description">
-    <div class="project-header">
-        <div class="project-title">
-            <h2>Personal Portfolio</h2>
-        </div>
-        <div class="project-tags">
-            <p class="ptag">High Fidelity Prototyping</p>
-            <p class="ptag">Front-End Development</p>
-            <p class="ptag">Responsive Design</p>
-        </div>
-        <div class="project-container">
-            <div class="overview-section">
-                <p style="font-family: 'Kumar One', serif">Timeline:</p>
-                <ul>
-                    <li>Jan '24 - August '24</li>
-                </ul>
+<!DOCTYPE html> <!-- to help browser interpret the page correctly -->
+<html lang="en"> <!-- contains all html elements -->
+    <head> <!-- contains metadata/non-visible info about the site, links to other pages-->
+        <title>Fintech @ Live Nation</title>
+       
+        <meta charset="UTF-8">
+        <!--Bootstrap for responsive behavior on mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Ashima Kamra's Portfolio">
+
+        <!-- adding bootstrap for css-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <!-- add logo for tab-->
+        <link rel="icon" href="assets/img/Logo.svg">
+        <!-- add fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+        <section id="nav-bar">
+            <nav>
+                <!-- dropdown menu -->
+                <div class="dropdown"> 
+                    <a class="hamburger-menu dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/img/hamburger-menu.svg">
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item droptext" href="about.html" target="_blank"> About </a></li>
+                        <li><a class="dropdown-item droptext" href="assets/img/Ashima-Kamra-Resume-2024.pdf" target="_blank"> Resume </a></li>
+                        <li><a class="dropdown-item droptext" href="#"> Other Work </a></li>
+                    </ul>
+                </div>
+                <!-- personal logo -->
+                <a href="index.html"><img class="logo rotate" src="assets/img/Logo.svg" alt=""></a>
+                
+                <!-- navigation buttons-->
+                <a class="nav-button btn btn-dark btn-lg me-4" href='other-work.html' role="button"> Other Work </a>
+                <a class="nav-button btn btn-dark btn-lg me-4" href='assets/img/Ashima-Kamra-Resume-2024.pdf' target="_blank" role="button"> Resume </a>
+                <a class="nav-button btn btn-dark btn-lg me-4" href='about.html' role="button"> About </a>
+            
+            </nav>
+        </section> 
+    
+        <section class="project-description">
+        <div class="project-header">
+            <div class="project-title">
+                <h2>Personal Portfolio</h2>
             </div>
-            <div class="overview-section">
-                <p style="font-family: 'Kumar One', serif">Skills/Tools:</p>
-                <ul>
-                    <li>Figma</li>
-                    <li>HTML/CSS</li>
-                    <li>jQuery</li>  
-                    <li>Bootstrap</li>                      
-                </ul>
+            <div class="project-tags">
+                <p class="ptag">High Fidelity Prototyping</p>
+                <p class="ptag">Front-End Development</p>
+                <p class="ptag">Responsive Design</p>
             </div>
-            <div class="overview-section">
-                <p style="font-family: 'Kumar One', serif;">Roles:</p>
-                <ul>
-                    <li>Front-End Developer</li>
-                    <li>UI Designer/Tester</li>
-                    <li>Project Manager</li>
-                </ul>
+            <div class="project-container">
+                <div class="overview-section">
+                    <p style="font-family: 'Kumar One', serif">Timeline:</p>
+                    <ul>
+                        <li>Jan '24 - August '24</li>
+                    </ul>
+                </div>
+                <div class="overview-section">
+                    <p style="font-family: 'Kumar One', serif">Skills/Tools:</p>
+                    <ul>
+                        <li>Figma</li>
+                        <li>HTML/CSS</li>
+                        <li>jQuery</li>  
+                        <li>Bootstrap</li>                      
+                    </ul>
+                </div>
+                <div class="overview-section">
+                    <p style="font-family: 'Kumar One', serif;">Roles:</p>
+                    <ul>
+                        <li>Front-End Developer</li>
+                        <li>UI Designer/Tester</li>
+                        <li>Project Manager</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-description-container">
+                <h2>Purpose:</h2>
+                <p class="project-description-text">Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact. Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact</p>
+            </div>
+            <div class="project-description-container">
+                <h2>Process:</h2>
+                <p class="project-description-text">Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact. Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact</p>
             </div>
         </div>
-        <div class="project-description-container">
-            <h2>Purpose:</h2>
-            <p class="project-description-text">Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact. Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact</p>
-        </div>
-        <div class="project-description-container">
-            <h2>Process:</h2>
-            <p class="project-description-text">Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact. Description of the purpose of the project. Perhaps it was for an internship or a personal project. Describe what inspired you, what you intended to reveal, or what you wanted to impact</p>
-        </div>
-    </div>
-</section>
+        </section>
+
+        <footer>
+            <a href="index.html"><img id="footer-logo" src="assets/img/Logo.svg" alt=""></a> 
+            <div id="footer-info">
+                <div id="footer-text"> Designed and developed with <span style="color: #91B7EF"> ♥ </span> by Ashima Kamra</div>
+                <a href="https://www.linkedin.com/in/ashima-kamra-2436bb218/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/ashi-kamra" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="mailto:ak118@wellesley.edu"><i class="bi bi-envelope-heart"></i></a>
+            </div>
+        </footer>
+
+        <!--extra scripts-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    </body>
